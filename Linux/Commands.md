@@ -100,6 +100,13 @@ When you are done making your modifications to the file, what you do to get out 
 - To save your changes to a new file, use the :w <new filename> command.
 Note - Remember to always press ENTER after typing in a command to execute it in Vim. Also, be sure to always be in Normal mode when entering commands, as Vim will not interpret commands entered in Insert mode as commands.
  
+ - $ sudo find -iname file/folder_name - Used to search for files and folders
+ 
+
+ 
+ 
+ 
+ 
  
  
  ## Contributions
