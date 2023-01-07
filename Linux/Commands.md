@@ -76,6 +76,16 @@
   - To delete all files in a directory, you can use the rm command with the * wildcard. For example, rm * will delete all files in the current directory.
   - To delete a directory and all of its contents, you can use the rm command with the -r flag. This will delete the directory and all files and subdirectories inside it. For example, rm -r my_directory
 
+ # Editing Files in Linux with vim
+ 
+- $ sudo vim filename
+ 
+ (This will open the file within the current directory, if their is no file with that name, it will create itself with that name and open it.)
+- $ sudo chown username filename
+ 
+ (Here put the username of that account you are using in linux and you will get ownership of the respective file named filename.)
+- 
+ 
  
  ## Contributions
 
