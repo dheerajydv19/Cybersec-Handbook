@@ -69,4 +69,19 @@
   - $ mv file.txt new_location/file.txt (This will move file.txt to the new_location directory.
   - $ mv file.txt new_name.txt (This will rename file.txt to new_name.txt.)
  
+ 7. rm -
+  - used to delete a file or folder
+  - To delete a single file, use the following command: rm file.txt
+  - To delete multiple files at once, use the following command: rm file1.txt file2.txt file3.txt
+  - To delete all files in a directory, you can use the rm command with the * wildcard. For example, rm * will delete all files in the current directory.
+  - To delete a directory and all of its contents, you can use the rm command with the -r flag. This will delete the directory and all files and subdirectories inside it. For example, rm -r my_directory
+
  
+ ## Contributions
+
+Contributions are always welcome!
+
+You can contact me any time on any of my social media platforms for any kind of suggestions and Contributions.
+https://linktr.ee/dheerajydv19
+ 
+Developed with ❤️ in India 🇮🇳 
