@@ -84,7 +84,22 @@
 - $ sudo chown username filename
  
  (Here put the username of that account you are using in linux and you will get ownership of the respective file named filename.)
-- 
+ 
+- Note - In order to enter the Insert mode in Vim, you simply type the letter “a.” Once you do that, you will be able to edit and start typing your modifications on the file.
+When you are done making your modifications to the file, what you do to get out of the Insert mode is hit the ESC key on your keyboard.
+
+ For using the below commands, you need to be out of insert mode.
+ - :/ "word" - This will look for the word inside the file that is opened in vim. (This will only search below from wherever your mouse coursor is)
+ - :/? "word " - This will search from below to above
+ - n for navigating from the reults of above two commands.
+ 
+ - To open a new file in Vim, use the :e <filename> command.
+ - To exit Vim without saving your changes, use the :q command.
+ - To force quit Vim, use the :q! command.
+ - To save and quit Vim, use the :wq command.
+- To save your changes to a new file, use the :w <new filename> command.
+Note - Remember to always press ENTER after typing in a command to execute it in Vim. Also, be sure to always be in Normal mode when entering commands, as Vim will not interpret commands entered in Insert mode as commands.
+ 
  
  
  ## Contributions
