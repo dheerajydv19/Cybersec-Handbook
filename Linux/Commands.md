@@ -34,4 +34,11 @@
  - ex - $ sudo /etc/init.d/Apache2 restart (This would restart apache2 service while everything else will keep running)
   
 6. Top 
-  
+ - This will list all the running processes with details about the cpu and memory being consumed.
+ - Similar to task manager in windows
+ - $ sudo top
+ - $ K <PID>  (This will kill that particular process with given PID)
+ 
+ ## Basic Linux Navigation 
+ 
+ 
